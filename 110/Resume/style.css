@@ -1,0 +1,51 @@
+html, body {
+    font-family: sans-serif, serif, monospace;
+    width: 100%;
+    max-width: 75%;
+    height: 100%;
+    min-height: 100;
+    margin-left: 14%;
+}
+
+html {
+    background-color: #efe5d5;
+    background-image: radial-gradient(#efe5d5, #b9b093);
+    text-shadow: 0.4px 0.4px 0.4px rgba(1,1,2,1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+h1 {
+    margin-left: 3%;
+}
+
+h2 {
+    margin-left: 1.9em;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+p {
+    margin-left: 3.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: "\2022";
+    color: black;
+    display: inline-block;
+    width: 1em;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 1em;
+}
