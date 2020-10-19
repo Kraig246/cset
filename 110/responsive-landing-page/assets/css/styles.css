@@ -1,0 +1,141 @@
+/* General Styles */
+html {
+    font-family: sans-serif, serif, monospace;
+    text-align: center;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* Nav stuff */
+
+#navbar {
+    text-align: center;
+    font-weight: 550;
+    display: inline-flex;
+}
+
+#navbar li {
+    padding-left: 2em;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    top: 0;
+    min-height: 75px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddd;
+    margin: -8px
+}
+
+/* Form Styles */
+
+#email {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+
+#submit, .select {
+    font-weight: 600;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: goldenrod;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* Body Elements */
+
+.icon {
+    width: 60vm;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    display: inline-flex;
+}
+
+.product {
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.product h2 {
+    background-color: #ddd;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 1em;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+footer {
+    background-color: #ddd;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Apply to all sizes */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Media Query */
+
+@media (max-width:800px) {
+    .icon {
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+    
+    #navbar {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+    
+    #navbar li {
+        margin-bottom: 15px;
+    }
+    
+    .product h2 {
+        padding: 0.1em;
+    }
+    
+    #submit, .select {
+        width: 150px;
+        height: 30px;
+        font-size: 14;
+    }
+    
+    iframe {
+        width: 400px;
+        height: 250px;
+    }
+}
+
