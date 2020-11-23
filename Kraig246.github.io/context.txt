@@ -1,0 +1,38 @@
+How I'm going to organize my content
+
+1. Universal Content:
+
+    - Side Nav Bar (Home, Contact, Projects, Speeches)
+    - Footer "Kraig O'Keefe 2020. All rights reserved."
+  
+2. Home:
+
+    Header:
+      - My name
+      - Aspiring Software Engineer
+    
+    About me section:
+      - Profile of myself (state education experience, work experience, personal skills, professional skills, etc.) using header elements, p elements and unordered lists.
+      - Picture of myself floated to the right using CSS
+
+3. Contact:
+
+    Header:
+      - "Like my work? Here's where you can reach out to me!"
+    Body:
+      - List my email, phone, LinkedIn profile and Facebook profile
+      - Make an email me section (will likely be static, because the portfolio page is a static github page)
+      
+4.  Projects:
+      
+      Header:
+        - "My Hard Work"
+      Body:
+        - Have preview images and descriptions of my projects as well as links to view them
+        
+5. Speeches:
+
+      Header:
+        - "A Look Into My Public Speaking Skills"
+      Body:
+        - Youtube links and thumbnails as well as brief descriptions of what the descriptions are about
